@@ -8,6 +8,6 @@ public class indexController {
 	@RequestMapping("/")
 	public String idex() {
 		System.out.println("Chamou  método index");
-		return "homes";
+		return "redirect:/eventos";
 	}
 }
